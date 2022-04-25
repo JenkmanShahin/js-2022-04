@@ -1,62 +1,66 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <title>Einkaufsliste</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
+  <meta charset="UTF-8">
+  <title>Einkaufsliste</title>
 
 
 </head>
 
 <body>
 <header>
-    <h1>Einkaufsliste</h1>
+<h1></h1>
+  <h1>Einkaufslise</h1>
 
-   <input type="text" id="text" value="Artikel Hinzufügen">
-   <input type="button" id="button" value="Add">
+  <input type="search" placeholder="Artikel Hinzufügen">
+  <button class="material-icons"
+          style="vertical-align:bottom">add_circle</button>
 
 
-<hr>
+  <hr>
 </header>
 
 <main>
-    <section>
-        <h2>Einkaufen</h2>
-        Obst & Gemüse<br/>
-               <input type="checkbox">
-               <label>Brokkoli</label>
-      <br/>
-        Getreideprodukte<br/>
-               <input type="checkbox">
-               <lable>Reis</lable>
-      <br/>
-               Milchprodukte<br/>
-               <input type="checkbox">
-               <label>Streukäse</label>
-      <br/>
-    </section>
-<hr>
+  <section>
+    <h2>Einkaufen<i class="material-icons">expand_less</i></h2>
+    <dt>Obst & Gemüse<i class="material-icons">expand_less</i></dt>
+    <dd><input type="checkbox"/> Brokkoli</dd>
 
-<section>
-    <h2>Erledigt</h2>
-    Hülsenfrüchte<br/>
-  <input type="checkbox">
-  <label>Tofu</label>
-</section>
-<hr>
+    <dt>Getreideprodukte<i class="material-icons">expand_less</i></dt>
+    <dd><input type="checkbox"/>Reis</dd>
+
+    <dt>Milchprodukte<i class="material-icons">expand_less</i></dt>
+    <dd><input type="checkbox"/>Streukäse</dd>
+
+  </section>
+  <hr>
+
+  <section>
+    <h2>Erledigt<i class="material-icons">expand_less</i></h2>
+    <dt>Hülsenfrüchte<i class="material-icons">expand_less</i></dt>
+    <dd><input type="checkbox"/><s>Tofu</s></dd>
+  </section>
+  <hr>
 
 </main>
 
 <footer>
+
   <nav>
-    <input type="button" id="button" value="Gruppen">
-    <input type="button" id="button" value="Sortieren">
-    <input type="button" id="button" value="Einstellungen">
+    <button>
+      <span class="material-icons">bookmark_add</span>
+      Gruppen</button>
+    <button>
+      <span class="material-icons">sort</span>
+      Sortieren</button>
+    <button><span class="material-icons">settings</span>
+      Einstellung</button>
+
 
   </nav>
 </footer>
-
-
 
 
 </body>
