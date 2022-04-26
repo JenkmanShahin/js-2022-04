@@ -32,6 +32,7 @@ let fluss="Nil"
   console.debug(stadt,", ", berg,", ", fluss);
 }
 
+
 /**
  * 5) Erstelle die Variablen mit verschiedenem Typ
  */
