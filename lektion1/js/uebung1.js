@@ -6,7 +6,7 @@
  * 1) Eine Variable land erstellen
  */
 //ToDo: füge ab hier Deinen Code ein
-
+test
 /**
  * 2) Die Variable ausgeben
  */
