@@ -40,7 +40,6 @@ function aufgabe5() {
   console.debug("Aufgabe 5 ==========================");
 
   //ToDo: füge ab hier Deinen Code ein
-
 let name="Elon Musk"
 let alter=50
 let groesseInMeter=1.88
