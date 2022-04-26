@@ -30,7 +30,6 @@ let stadt="Berlin"
 let berg="Mount Everest"
 let fluss="Nil"
   console.debug(stadt,", ", berg,", ", fluss);
-
 }
 
 /**
