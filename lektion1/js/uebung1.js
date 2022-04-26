@@ -43,6 +43,7 @@ let name="Elon Musk"
 let alter=50
 let groesseInMeter=1.88
 let amLeben=true
+
   console.debug(name);
   console.debug(alter);
   console.debug(groesseInMeter);
